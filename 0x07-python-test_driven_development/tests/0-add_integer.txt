@@ -73,7 +73,7 @@ Now use it:
 	>>> add_integer(-2, 100)
 	98
 
-	>>> add_integer("Hello", "Holberton")
+	>>> add_integer("Hello", "ALX")
 	Traceback (most recent call last):
 	    ...
 	TypeError: a must be an integer

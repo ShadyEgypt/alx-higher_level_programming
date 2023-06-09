@@ -8,7 +8,15 @@ which adds together 2 int or float types and returns an int.
 
 
 def add_integer(a, b):
-    """Return the sum of two integers or floats as an integer.
+    """
+    a function that adds two numbers
+
+    Args:
+    a (int or float): first argument
+    b (int or float): second argument
+
+    Returns:
+    Return the sum of two integers or floats as an integer.
     Otherwise raise a TypeError for given incorrect argument type.
     """
     h = list(map(lambda x: isinstance(x, (int, float)), [a, b]))
