@@ -8,7 +8,14 @@ It prints "My name is (first) (last)" where (first) and (last) are the args.
 
 
 def say_my_name(first_name, last_name=""):
-    """Print My name is (first) (last) if given, else print error.
+    """a function that prints My name is (first) (last) if given, else print error.
+
+    Args:
+    first_name (str): first arg
+    last_name (str): second arg
+
+    Returns
+    My name is (first) (last) if given, else print error.
     """
     if not isinstance(first_name, str):
         raise TypeError("first_name must be a string")

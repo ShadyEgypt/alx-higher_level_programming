@@ -9,6 +9,12 @@ The argument supplied should determine the width/height of square.
 
 def print_square(size):
     """Print a perfect square given a valid int or float argument.
+
+    Args:
+    size (int): this argument must be a positive int
+
+    Returns:
+    a square of dashes # based on the entered size
     """
     if not isinstance(size, (int, float)) or isinstance(size, bool):
         raise TypeError("size must be an integer")

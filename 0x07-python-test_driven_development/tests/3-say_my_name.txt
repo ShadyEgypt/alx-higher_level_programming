@@ -43,7 +43,7 @@ Now use it:
     >>> smn("Ace", "of Spades")
     My name is Ace of Spades
 
-    >>> smn(["Holberton", "School"], 10)
+    >>> smn(["ALX", "School"], 10)
     Traceback (most recent call last):
         ...
     TypeError: first_name must be a string
